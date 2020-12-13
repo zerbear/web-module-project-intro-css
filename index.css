@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    font-size: 10px;
+}
+/* CSS for the top options */
+
+/*HEADER*/
+
+/* .menu {
+	max-width: 80%;
+} */
+
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	max-width: 100%;
+}
+
+nav .nav-top {
+	font-size: 3.5rem;
+	padding: 20px;
+	border-radius: 30px; 
+	width: 13%;
+	text-align: center;
+	color: white;
+	font-family: "Roboto Mono";
+	margin: 30px;
+	max-width: 100%;
+	line-height: normal;
+}
+
+.coral {
+	background-color: #ff764e;
+}
+.jadeblue {
+	background-color: #5ed3eb;
+}
+.darkyellow {
+	background-color: #Ffcd69;
+}
+
+header {
+	display: flex;
+	/*border: 10px solid red;*/
+	padding: 30px;
+}
+
+.nationalpark {
+	/* border: 1px solid green; */
+	display: flex;
+	max-width: 30%;
+}
+ /* .p1.p2 {
+	display: flex;
+	flex-direction: column;
+	font-size: 3rem;
+} */
+
+.main {
+	/* border: 1px solid orange; */
+	display: flex;
+	font-size: 9rem;
+	font-family: Chelsea Market;
+	width: max-content;
+	padding-top: 3%;
+	padding-left: 10%;
+}
+
+.p1 {
+	/* border: 10px solid lavender; */
+	padding-top: 5%;
+	text-align: center;
+	font-size: 3rem;
+	font-family: Roboto Mono;
+	line-height: normal;
+	max-width: 100%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.img-yosemite {
+	width: 80%;
+	max-width: 100%;
+	border-radius: 50%;
+	padding: 10%;
+}
+
+.history {
+	background-color: #Ddb9a3;
+	color: white;
+	padding: 20px;
+	max-width: 100%;
+	height: 50%;
+	margin: 3%;
+	font-size: 2.7rem;
+	text-align: center;
+	font-family: Roboto Mono;
+	word-spacing: 10px;
+}
+
+.history-top-paragraph .history-bottom-paragraph {
+	padding: 10px;
+	text-align: center;
+	color: white;
+	line-height: 10px;
+}
+.history-bottom-paragraph {
+	padding-top: 2%;
+}
+
+/* CSS for bonfire */
+.bonfire {
+	/* border: 1px solid red; */
+	margin: auto;
+	display: block;
+	width: 15%;
+	height: 15%;
+}
+.fire {
+	/* border: 1px solid red; */
+	align-content: center;
+	margin: 20px;
+	font-size: 2.5rem;
+	line-height: normal;
+	font-family: Roboto Mono;
+	padding-left: 35%;
+	padding-right: 35%;
+	text-align: center;
+}
+
+.vehicle {
+	/* border: 1px solid red; */
+	align-content: center;
+	margin: 50px;
+	font-size: 2.5rem;
+	font-family: Roboto Mono;
+	padding-left: 33%;
+	padding-right: 33%;
+	text-align: center;
+	line-height: normal;
+
+}
+
+/* CSS for the rv */
+.recreational-vehicle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:15%;
+	height:15%;
+	/* border: 1px solid red; */
+}
+
+/* CSS for the halfdome */
+/* .halfdome {
+	display: 100%;
+} */
+
+.tunnel-view {
+	height: 500px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.infobox {
+	background-color: #f9e7dc;
+	width: absolute;
+	max-height: 20%;
+}
+
+/* CSS for the footer */
